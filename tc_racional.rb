@@ -23,7 +23,7 @@ class Test_Fraccion < Test::Unit::TestCase
 
   def test_resta
     rr = @r1 - @r1
-    assert_equal("0/0", rr.to_s)
+    assert_equal("4/4", rr.to_s)
   end
 
 end
