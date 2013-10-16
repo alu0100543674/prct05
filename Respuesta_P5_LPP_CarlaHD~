@@ -1,0 +1,11 @@
+2.1.) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
+
+    El error es la condición del while, al ser v distinto de 0, no entra nunca al bucle.
+    Se arregla poniendo como condición que v sea mayor que 0.
+
+2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+
+    ruby -r debug gcd.rb
+    He usado tr on y luego n para ejecutar la sentencia y para ver la traza y he detectado que no entraba al while
+    
+  
