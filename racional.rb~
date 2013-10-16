@@ -20,6 +20,12 @@ class Fraccion
     sum
   end
   
+  def -(other)
+    num = (@num * other.den) + (@den * other.num)
+    den = @den * other.den
+    sum = Fraccion.new(num, den)
+    sum
+  end
 
 end
 
